@@ -1,0 +1,19 @@
+java07_inherit.practice2.product
+class Product
+---------------
+# model : String
+# price : int
+---------------
+<<constructor>>
++ product(String, int)
+
+<<method>>
++ out() : void
+
+<<getter>>
++ getModel() : String
++ getPrice() : int
+
+<<setter>>
++ setModel(String) : void
++ setPrice(int) : void

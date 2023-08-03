@@ -1,0 +1,20 @@
+java07_inherit.practice2.product
+class Computer
+---------------
+- model : String
+- price : int
+---------------
+<<constructor>>
++ Computer(String, int)
+
+<< method >>
++ out() : void {override}
+  --> "Computer" 라고 출력
+
+<<getter>>
++ getModel() : String
++ getPrice() : int
+
+<<setter>>
++ setModel(String) : void
++ setPrice(int) : void

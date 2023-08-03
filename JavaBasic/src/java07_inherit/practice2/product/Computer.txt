@@ -1,0 +1,9 @@
+class Computer extends Product
+---------------
+---------------
+<<constructor>>
++ Computer(String, int)
+
+<< method >>
++ out() : void {override}
+  --> "Computer" 라고 출력

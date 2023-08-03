@@ -1,0 +1,7 @@
+ + File 전송 프로그램 만들기
+
+  - File_Client
+	data.txt 파일을 읽어서 서버로 전송
+
+  - File_Server
+	전송받은 데이터를 receive.txt 파일로 저장

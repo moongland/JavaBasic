@@ -1,0 +1,20 @@
+java07_inherit.practice2.product
+class Tv
+---------------
+- model : String
+- price : int
+---------------
+<<constructor>>
++ Tv(String, int)
+
+<< method >>
++ out() : void {override}
+  --> "TV" 라고 출력
+
+<<getter>>
++ getModel() : String
++ getPrice() : int
+
+<<setter>>
++ setModel(String) : void
++ setPrice(int) : void

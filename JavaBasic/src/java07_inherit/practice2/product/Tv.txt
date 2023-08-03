@@ -1,0 +1,9 @@
+class Tv extends Product
+---------------
+---------------
+<<constructor>>
++ Tv(String, int)
+
+<< method >>
++ out() : void {override}
+  --> "TV" 라고 출력
